@@ -1,0 +1,117 @@
+:root{
+    --bg-clr:rgb(255, 192, 144)
+}
+@font-face {
+    font-family: vazir;
+    src: url(../Vazir-Bold.ttf);
+}
+
+body {
+    font-family: vazir;
+    direction: rtl;
+}
+
+
+
+
+
+nav {
+    background-color: rgb(255, 192, 144) ;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 40px;
+    font-family: vazir;
+}
+
+
+
+.sect-{
+    margin-top: 50px;
+    display: flex;
+    background-color: #ffffff;
+    width: auto;
+    height: 800px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.sect-div {
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 50px;
+    width: 500px;
+    height: 300px;
+    background-color: rgb(255, 192, 144) ;
+}
+.sect- p{
+    cursor:pointer;
+    margin-top: 60px;
+}
+section h1:hover {
+    color: orange;
+    text-shadow: 1px 1px 2px yellow, 0 0 25px yellow, 0 0 5px yellow;
+    transition: 0.5s;
+    cursor: default;
+}
+section p:hover {
+    color: orange;
+    text-shadow: 1px 1px 2px yellow, 0 0 25px yellow, 0 0 5px yellow;
+    transition: 0.5s;
+    cursor: default;
+}
+@media screen and (max-width:1200px) {
+    .form1 {
+        margin-right: 20%;
+    }
+
+    .menu {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:1370px) {
+    .form1 {
+        margin-right: 20%;
+    }
+}
+
+@media screen and (max-width:1110px) {
+    .form1 {
+        margin-right: 10%;
+    }
+}
+
+@media screen and (max-width:1010px) {
+    .form1 {
+        margin-right: 5%;
+    }
+}
+
+@media screen and (max-width:970px) {
+    .form1 {
+        margin-right: 0%;
+    }
+}
+
+@media screen and (max-width:930px) {
+    .form1 {
+        margin-right: -2%;
+    }
+}
+@media screen and (max-width: 800px) {
+    .sightings-sect {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .divsect1-1 {
+        width: 90%;
+        margin: 10px auto;
+    }
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
